@@ -22,6 +22,10 @@ A Streamlit-based Retrieval-Augmented Generation (RAG) application that allows u
 - Mistral AI
 - PyPDF
 
+- ##URL
+
+- https://pdf-rag-chatbot-tjfgwnx5p5ufaycir3bm9x.streamlit.app/
+
 ## Installation
 
 Install the required dependencies:
@@ -30,8 +34,6 @@ Install the required dependencies:
 pip install -r requirements.txt
 
 
-``##URL`
-https://pdf-rag-chatbot-tjfgwnx5p5ufaycir3bm9x.streamlit.app/
 
 ## Environment Variables
 
