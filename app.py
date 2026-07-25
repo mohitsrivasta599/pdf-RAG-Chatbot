@@ -70,7 +70,7 @@ if os.path.exists("chroma_db"):
         embedding_function=embeddings
     )
 
-    retriever = vectorstore.as_retriever(
+      retriever = vectorstore.as_retriever(
         search_type="mmr",
         search_kwargs={
             "k":4,
