@@ -61,7 +61,7 @@ if uploaded_file:
 
     if os.path.exists("chroma_db"):
 
-    embeddings = HuggingFaceEmbeddings(
+      embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
     )
 
