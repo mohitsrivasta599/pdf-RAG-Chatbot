@@ -63,7 +63,7 @@ if os.path.exists("chroma_db"):
 
      embeddings = HuggingFaceEmbeddings(
             model_name="sentence-transformers/all-MiniLM-L6-v2"
-            )
+    )
 
     vectorstore = Chroma(
         persist_directory="chroma_db",
