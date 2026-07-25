@@ -15,7 +15,7 @@ load_dotenv()
 
 st.set_page_config(page_title="RAG Book Assistant ")
 
-st.title("?? RAG Book Assistant BY MOHIT")
+st.title("RAG Book Assistant BY MOHIT")
 st.write("Upload a PDF and ask questions from the document")
 
 uploaded_file = st.file_uploader("Upload a PDF book", type="pdf")
@@ -79,7 +79,7 @@ if uploaded_file:
         }
     )
 
-        llm = ChatMistralAI(model="mistral-small-2506")
+             llm = ChatMistralAI(model="mistral-small-2506")
 
       prompt = ChatPromptTemplate.from_messages(
         [
