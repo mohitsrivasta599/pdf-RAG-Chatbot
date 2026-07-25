@@ -13,9 +13,9 @@ from langchain_core.prompts import ChatPromptTemplate
 
 load_dotenv()
 
-st.set_page_config(page_title="RAG Book Assistant")
+st.set_page_config(page_title="RAG Book Assistant ")
 
-st.title("?? RAG Book Assistant")
+st.title("?? RAG Book Assistant BY MOHIT")
 st.write("Upload a PDF and ask questions from the document")
 
 uploaded_file = st.file_uploader("Upload a PDF book", type="pdf")
