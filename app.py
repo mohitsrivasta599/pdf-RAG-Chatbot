@@ -81,7 +81,7 @@ if uploaded_file:
 
     llm = ChatMistralAI(model="mistral-small-2506")
 
-      prompt = ChatPromptTemplate.from_messages(
+    prompt = ChatPromptTemplate.from_messages(
         [
             (
                 "system",
